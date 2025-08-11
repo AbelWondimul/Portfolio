@@ -7,6 +7,7 @@ import {
   AnimatePresence,
   motion,
 } from 'framer-motion';
+import { Laptop } from 'lucide-react';
 import styled from 'styled-components';
 
 const Nav = styled.nav<{ isScrolled: boolean }>`
@@ -38,6 +39,16 @@ const Logo = styled(motion.a)`
   font-weight: 700;
   color: var(--text-primary);
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+`;
+
+const LogoIcon = styled(Laptop)`
+  color: var(--accent-blue);
+  width: 1.5rem;
+  height: 1.5rem;
+  flex-shrink: 0;
 `;
 
 const NavLinks = styled.div`
@@ -144,7 +155,8 @@ const Navbar = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Portfolio
+          <LogoIcon />
+          Abel's Portfolio
         </Logo>
 
         <NavLinks>
