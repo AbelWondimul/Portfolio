@@ -212,44 +212,32 @@ const experiences = [
     title: 'Software Engineer Intern',
     company: 'Microsoft',
     date: 'May 2025 – Aug 2025',
-    description: 'Worked as a Software Engineer Intern on impactful projects at scale.',
+    description: 'Worked on an internal automation tool that streamlined workflows and integrated AI capabilities, significantly improving efficiency for a specialized team. Delivered features ahead of schedule and ensured reliable, error-free performance for active users.',
     details: [
-      'Collaborated with engineers to build and improve features within a production environment.',
-      'Contributed to code reviews, debugging, and optimization for performance and scalability.',
-      'Gained hands-on experience with Microsoft’s engineering tools and agile workflows.'
     ]
   },
   {
     title: 'Program Manager & Software Engineer Intern',
     company: 'Microsoft',
     date: 'May 2024 – Aug 2024',
-    description: 'Completed PM/SWE internship focused on end-to-end product development.',
+    description: 'Collaborated on a platform for evaluating AI-generated responses, contributing to both backend and frontend development. Helped define the system’s architecture, improve accuracy, and deliver the project on time through coordinated teamwork.',
     details: [
-      'Drove product planning and coordination across cross-functional teams.',
-      'Designed feature specs and prototypes for user-facing components.',
-      'Implemented backend and frontend changes based on user needs and feedback.'
     ]
   },
   {
     title: 'Teaching Assistant',
     company: 'Pacific Lutheran University, Tacoma, WA',
     date: 'Sep. 2023 – May 2025',
-    description: 'Supported instruction and lab guidance for CS students.',
+    description: 'Supported instruction and lab guidance for CS students. Enhanced student learning outcomes by leading coding labs, developing targeted practice modules for complex topics, and coaching effective debugging strategies to improve problem-solving efficiency.',
     details: [
-      'Assisted in the instruction of "Intro to Computer Science Lab" under Professor Dr. David Wolff.',
-      'Conducted weekly lab sessions, providing hands-on support with coding and problem-solving.',
-      'Offered one-on-one assistance to students during lab sessions to reinforce concepts.'
-    ]
+  ]
   },
   {
     title: 'Supplemental Instruction Leader',
     company: 'Pacific Lutheran University, Tacoma, WA',
     date: 'Sep. 2023 – Jan. 2024',
-    description: 'Led collaborative learning sessions for CS students.',
+    description: 'Facilitated student success by leading study sessions, creating resources for challenging topics, and mentoring students to strengthen their academic skills and confidence.',
     details: [
-      'Led weekly study sessions for the "Introduction to Computer Science" course.',
-      'Worked with instructors to identify tough topics and developed resources to address them.',
-      'Mentored a group of students, helping them succeed academically and build confidence.'
     ]
   }
 ];
