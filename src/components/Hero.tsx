@@ -601,7 +601,7 @@ end`,
 
       {/* Floating Resume Button */}
       <FloatingResumeButton
-        href="YOUR_RESUME_LINK_HERE"
+        href="https://drive.google.com/file/d/1PUigeCMAtwy297JJfyGo56D2aZedyHwl/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         initial={{ opacity: 0, x: 100 }}
