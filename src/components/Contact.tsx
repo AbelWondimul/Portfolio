@@ -355,7 +355,7 @@ const Contact = () => {
                 <FaGithub />
               </SocialLink>
               <SocialLink
-                href="www.linkedin.com/in/abellegesse"
+                href="https://www.linkedin.com/in/abellegesse"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
