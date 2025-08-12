@@ -5,7 +5,6 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
 } from 'react-icons/fa';
 import styled from 'styled-components';
 
@@ -246,7 +245,7 @@ const Contact = () => {
     const body = `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
     
     // Create mailto link
-    const mailtoLink = `mailto:legessaw@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:legessaw@plu.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     
     // Open default email client
     window.location.href = mailtoLink;
@@ -347,7 +346,7 @@ const Contact = () => {
             </InfoText>
             <SocialLinks>
               <SocialLink
-                href="https://github.com"
+                href="https://github.com/AbelWondimul"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -356,7 +355,7 @@ const Contact = () => {
                 <FaGithub />
               </SocialLink>
               <SocialLink
-                href="https://linkedin.com"
+                href="www.linkedin.com/in/abellegesse"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1 }}
@@ -364,7 +363,7 @@ const Contact = () => {
               >
                 <FaLinkedin />
               </SocialLink>
-              <SocialLink
+              {/* <SocialLink
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -372,9 +371,9 @@ const Contact = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <FaTwitter />
-              </SocialLink>
+              </SocialLink> */}
               <SocialLink
-                href="mailto:your.email@example.com"
+                href="mailto:legessaw@plu.edu"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
